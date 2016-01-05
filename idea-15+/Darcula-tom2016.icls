@@ -1,0 +1,25 @@
+<scheme name="Darcula-tom2016" version="142" parent_scheme="Darcula">
+  <option name="LINE_SPACING" value="0.9" />
+  <option name="EDITOR_FONT_SIZE" value="11" />
+  <option name="CONSOLE_FONT_NAME" value="Ubuntu Mono" />
+  <option name="EDITOR_FONT_NAME" value="Anonymous Pro" />
+  <attributes>
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="48c059" />
+      </value>
+    </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value>
+        <option name="BACKGROUND" value="1f271e" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+        <option name="BACKGROUND" value="171717" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="tc_molenaar_vim" _name="TC Molenaar" version="1.0">
+	<author>Tom Corelis</author>
+	<_description>TC Molenaar VIM Alpha</_description>
+
+<!-- COLORS -->
+	<color name="text_fg" value="#e8f2ee"/> <!-- Dark gray -->
+	<color name="text_bg" value="#101010"/> <!-- Whitish -->
+
+	<color name="light_emerald" value="#97B098"/> <!-- Light emerald -->
+	<color name="light_tangerine" value="#ffd6c9"/> <!-- Light tangerine -->
+	<color name="teal" value="#2A9489"/> <!-- Teal -->
+	<color name="desat_dark_blue" value="#2C6897"/> <!-- Desat. dark blue -->
+	<color name="darker_lilac" value="#5E468C"/> <!-- Lilac -->
+	<color name="lighter_lilac" value="#8C7EE1"/> <!-- Lighter lilac -->
+	<color name="light_red" value="#ff6666"/> <!-- Light red -->
+	<color name="dark_gray" value="#3f3f3f"/> <!-- Dark gray -->
+	<color name="light_blue" value="#C1C9EA" /> <!-- Very light teal/seafoam green  -->
+
+<!-- Global Settings -->
+	<style name="text" foreground="text_fg" background="text_bg"/>
+	<style name="cursor" foreground="light_red"/>
+	<style name="current-line" background="dark_gray"/>
+	<style name="line-numbers" foreground="text_bg" background="darker_lilac"/>
+	<style name="selection" foreground="text_fg" background="darker_lilac"/>
+
+<!-- Bracket Matching -->
+	<style name="bracket-match" foreground="text_bg" background="darker_lilac"/>
+	<style name="bracket-mismatch" foreground="text_bg" background="light_red"/>
+	<style name="search-match" foreground="light_emerald" background="text_fg"/>
+
+<!-- Base syntax colors
+
+Languages: plain, python, ruby, xml, html, ada, asp, awk, boo, c,
+changelog, chdr, cmake, cpp, csharp, css, d, def, desktop, diff,
+docbook, dosbatch, dot, dpatch, dtd, eiffel, erlang, forth, fortran,
+gap, gtkrc, haddock, haskell, haskell-literate, idl, ini, java,
+javascript, latex, libtool, lua, m4, makefile, msil, nermele, nsis,
+objc, ocaml, ocl, octave, pascal, perl, php, pkgconfig, po, prolog,
+R, rpmspec, scheme, sh, sql, t2t, tcl, texinfo, vala, vbnet, verilog,
+vhdl, xslt, yacc
+
+-->
+
+	<style name="def:string" foreground="teal"/>
+	<style name="def:character" foreground="teal"/>
+	<style name="def:special-char" foreground="teal"/>
+	<style name="def:number" foreground="light_tangerine"/>
+	<style name="def:decimal" foreground="light_tangerine"/>
+	<style name="def:floating-point" foreground="light_tangerine"/>
+	<style name="def:complex" foreground="light_tangerine"/>
+	<style name="def:base-n-integer" foreground="light_tangerine"/>
+	<style name="def:boolean" foreground="desat_dark_blue"/>
+
+	<style name="def:builtin" foreground="light_blue"/>
+	<style name="def:keyword" foreground="light_blue"/>
+	<style name="def:function" foreground="darker_lilac"/>
+	<style name="def:type" foreground="desat_dark_blue"/>
+	<style name="def:preprocessor" foreground="darker_lilac"/>
+	<style name="def:identifier" foreground="lighter_lilac"/>
+	<style name="def:operator" foreground="light_blue"/>
+	<style name="def:statement" foreground="lighter_lilac"/>
+
+	<style name="def:constant" foreground="darker_lilac"/>
+	<style name="def:special-constant" foreground="darker_lilac"/>
+	<style name="def:error" foreground="text_bg" background="light_red"/>
+
+<!-- Comments -->
+
+	<style name="def:comment" foreground="light_emerald"/>
+	<style name="def:shebang" foreground="light_emerald"/>
+	<style name="def:doc-comment-element" foreground="light_emerald"/>
+	<style name="def:note" foreground="light_emerald"/>
+
+</style-scheme>
