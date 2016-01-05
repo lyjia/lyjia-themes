@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<style-scheme id="tc_molenaar_vim" _name="TC Molenaar" version="1.0">
+<style-scheme id="tc_moolenaar_vim" _name="TC Moolenaar" version="1.1">
 	<author>Tom Corelis</author>
-	<_description>TC Molenaar VIM Alpha</_description>
+	<_description>TC Moolenaar VIM Alpha</_description>
 
 <!-- COLORS -->
 	<color name="text_fg" value="#e8f2ee"/> <!-- Dark gray -->
@@ -15,20 +15,21 @@
 	<color name="darker_lilac" value="#5E468C"/> <!-- Lilac -->
 	<color name="lighter_lilac" value="#8C7EE1"/> <!-- Lighter lilac -->
 	<color name="light_red" value="#ff6666"/> <!-- Light red -->
+	<color name="darker_gray" value="#1a1a1a"/> <!-- Darker gray -->
 	<color name="dark_gray" value="#3f3f3f"/> <!-- Dark gray -->
 	<color name="light_blue" value="#C1C9EA" /> <!-- Very light teal/seafoam green  -->
 
 <!-- Global Settings -->
 	<style name="text" foreground="text_fg" background="text_bg"/>
 	<style name="cursor" foreground="light_red"/>
-	<style name="current-line" background="dark_gray"/>
-	<style name="line-numbers" foreground="text_bg" background="darker_lilac"/>
-	<style name="selection" foreground="text_fg" background="darker_lilac"/>
+	<style name="current-line" background="darker_gray"/>
+	<style name="line-numbers" foreground="text_bg" background="dark_gray"/>
+	<style name="selection" foreground="text_fg" background="dark_gray"/>
 
 <!-- Bracket Matching -->
-	<style name="bracket-match" foreground="text_bg" background="darker_lilac"/>
-	<style name="bracket-mismatch" foreground="text_bg" background="light_red"/>
-	<style name="search-match" foreground="light_emerald" background="text_fg"/>
+	<style name="bracket-match" foreground="text_bg" background="lighter_lilac"/>
+	<style name="bracket-mismatch" foreground="text_bg" background="light_tangerine"/>
+	<style name="search-match" foreground="text_bg" background="light_emerald"/>
 
 <!-- Base syntax colors
 
