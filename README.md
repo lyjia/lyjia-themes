@@ -1,5 +1,5 @@
 # LyjiaThemes
-An archive of custom color schemes for various editors that I've created.
+An archive of custom text-editor color schemes that I've created.
 
 ## Jetbrains editors v15+
 To use, install the .jar file via "File" => "Import Settings...", or import the .icls file manually.
