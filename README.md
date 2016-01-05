@@ -1,5 +1,5 @@
 # LyjiaThemes
-An archive of custom color schemes for various editors that I've created.
+An archive of custom text-editor color schemes that I've created.
 
 ## Jetbrains editors v15+
 To use, install the .jar file via "File" => "Import Settings...", or import the .icls file manually.
@@ -12,3 +12,8 @@ Copy the XML file to ~/.local/share/gtksourceview-2.0/styles or  ~/.local/share/
 
 #### TC Moolenaar
 An attempt at duplicating the unknown color scheme depicted [here](http://www.binpress.com/blog/2014/11/19/vim-creator-bram-moolenaar-interview/), with a few modifications. (Example font is [Fira Code](https://github.com/tonsky/FiraCode), default settings.)
+
+## License
+![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
