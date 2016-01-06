@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<style-scheme id="tc_moolenaar_vim" _name="TC Moolenaar" version="1.1">
+<style-scheme id="tc_moolenaar_vim" _name="TC Moolenaar" version="1.0">
 	<author>Tom Corelis</author>
-	<_description>TC Moolenaar VIM Alpha</_description>
+	<_description>TC Moolenaar</_description>
 
 <!-- COLORS -->
-	<color name="text_fg" value="#e8f2ee"/> <!-- Dark gray -->
-	<color name="text_bg" value="#101010"/> <!-- Whitish -->
+	<color name="text_fg" value="#e8f2ee"/> <!-- Whitish -->
+	<color name="text_bg" value="#101010"/> <!-- Dark gray -->
 
 	<color name="light_emerald" value="#97B098"/> <!-- Light emerald -->
 	<color name="light_tangerine" value="#ffd6c9"/> <!-- Light tangerine -->
